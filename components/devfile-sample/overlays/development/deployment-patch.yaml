@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mmorhun-tenant/devfile-sample/devfile-sample@sha256:85f1463407c4a61f6911e904dbb994421a482832b390a3ad7473fb36336d0718
+        name: my-nodejs
+        resources: {}
+status: {}
