@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mmorhun-tenant/devfile-sample/devfile-sample@sha256:85f1463407c4a61f6911e904dbb994421a482832b390a3ad7473fb36336d0718
+      - image: quay.io/redhat-user-workloads/mmorhun-tenant/devfile-sample/devfile-sample@sha256:46508cc700203433c4c58705bc1a4e94e83c6247c59fbb19fc073515c07a4165
         name: my-nodejs
         ports:
         - containerPort: 3001
